@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: '2568bhby45ggg336556', url: 'https://github.com/xtrrdnryprgrmmr/Postman-API-Test.git'
+                git branch: 'main', credentialsId: '2568bhby45ggg336556', url: 'https://github.com/xtrrdnryprgrmmr/SenderReceiverNotificationDemo.git'
             }
         }
     }
