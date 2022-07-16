@@ -68,7 +68,13 @@ public class SendMailFromGmailTest {
     public void clickLastReceivedMail() {
         mailModel.clickLastReceivedMail();
     }
-
+    
+    @Test()
+    @And("Verify mail is send")
+    public void verifyMailIsSend() {
+        mailModel.verifyMailIsSend();
+    }
+    
     @Test()
     @And("Verify element come from sender user")
     public void verifyMailFromSender() {
